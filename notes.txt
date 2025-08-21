@@ -1,6 +1,8 @@
 npm install @reduxjs/toolkit
 npm install react-redux
 npm install @dimasmds/react-redux-loading-bar
+
+===TESTING
 npm install vitest --save-dev
 npm install jsdom --save-dev
 npm install @testing-library/react@14 @testing-library/user-event@14 @testing-library/jest-dom@5 --save-dev
@@ -9,3 +11,7 @@ npm install cypress --save-dev
 npm install eslint-plugin-cypress --save-dev
 npx cypress open
 Atau menjalankan di terminal npx cypress run
+
+===CI/CD
+npm install start-server-and-test --save-dev
+npm run ci:test
